@@ -40,6 +40,10 @@ Set `NEXT_PUBLIC_SITE_URL` in `.env.local` to the deployed origin (for example, 
 
 Development and production builds use separate output directories (`.next-dev` and `.next`) to avoid mixing chunks when switching between `npm run dev` and `npm run build`.
 
+## Deploying to GitHub Pages
+
+The `main` branch is configured to build and deploy the static export through `.github/workflows/deploy.yml`. In the repository settings, open **Pages** and select **GitHub Actions** as the build and deployment source. After each push to `main`, the workflow publishes the site at [anuj10110.github.io/portfolio-dev](https://anuj10110.github.io/portfolio-dev/).
+
 ## Before launch
 
 The project entries in `components/data.js` are clearly labeled concepts. Replace them with completed work and accurate case studies as those projects are built. Add a résumé link when you have a public résumé file to share.
