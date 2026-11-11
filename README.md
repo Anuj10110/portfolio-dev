@@ -42,7 +42,7 @@ Development and production builds use separate output directories (`.next-dev` a
 
 ## Deploying to GitHub Pages
 
-The `main` branch is configured to build and deploy the static export through `.github/workflows/deploy.yml`. In the repository settings, open **Pages** and select **GitHub Actions** as the build and deployment source. After each push to `main`, the workflow publishes the site at [anuj10110.github.io/portfolio-dev](https://anuj10110.github.io/portfolio-dev/).
+The `main` branch is configured to build and deploy the static export through `.github/workflows/deploy.yml`. For the first deployment, open **Settings → Pages → Build and deployment** in the repository and select **GitHub Actions** as the source. After that one-time setting, pushes to `main` publish the site at [anuj10110.github.io/portfolio-dev](https://anuj10110.github.io/portfolio-dev/).
 
 ## Before launch
 
