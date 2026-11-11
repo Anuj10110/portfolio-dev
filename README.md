@@ -2,6 +2,8 @@
 
 A dark, expressive portfolio for a full-stack developer and data scientist, built with Next.js, JavaScript, Tailwind CSS, GSAP, and Framer Motion.
 
+**Live site:** [anuj10110.github.io/portfolio-dev](https://anuj10110.github.io/portfolio-dev/)
+
 ## Profiles
 
 - [GitHub](https://github.com/Anuj10110)
@@ -25,8 +27,9 @@ Open [http://localhost:3000](http://localhost:3000).
 ```bash
 npm run dev    # Start the development server
 npm run build  # Create an optimized production build
-npm run start  # Serve the production build
 ```
+
+The production build creates a static export in `out/`, ready for GitHub Pages.
 
 ## Configuration
 
@@ -42,8 +45,8 @@ Development and production builds use separate output directories (`.next-dev` a
 
 ## Deploying to GitHub Pages
 
-The `main` branch is configured to build and deploy the static export through `.github/workflows/deploy.yml`. For the first deployment, open **Settings → Pages → Build and deployment** in the repository and select **GitHub Actions** as the source. After that one-time setting, pushes to `main` publish the site at [anuj10110.github.io/portfolio-dev](https://anuj10110.github.io/portfolio-dev/).
+The workflow in `.github/workflows/deploy.yml` builds and deploys the static export on every push to `main`. In the repository, open **Settings → Pages → Build and deployment** and select **GitHub Actions** as the source. The deployed site is [anuj10110.github.io/portfolio-dev](https://anuj10110.github.io/portfolio-dev/).
 
-## Before launch
+## Content roadmap
 
 The project entries in `components/data.js` are clearly labeled concepts. Replace them with completed work and accurate case studies as those projects are built. Add a résumé link when you have a public résumé file to share.
