@@ -1,0 +1,32 @@
+# Dependencies
+/node_modules
+
+# Next.js build output
+/.next
+/.next-dev
+/out
+
+# Production build artifacts
+/build
+/dist
+
+# Local environment files (keep the example template tracked)
+.env*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# OS and editor files
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# Optional tooling caches
+.turbo
+.vercel
+coverage
